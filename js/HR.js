@@ -1,11 +1,10 @@
 "use strict";
 
+//Functions
 let counter = 1000;
-
 function IDno() {
-  const employeeID = counter;
-  counter++;
-
+    const employeeID = counter;
+    counter++;
 return employeeID;
 }
 
@@ -19,6 +18,8 @@ function getRandomWithinRange(min, max) {
     taxed = taxed-(0.075 * taxed )
     return taxed
     }
+
+//Employee Objects
 
 let salEmp1=getRandomWithinRange(1500,2000);
 let Ghazi= {
@@ -104,39 +105,41 @@ let Hadi= {
     netSalary:salNet(salEmp7)
 }
 
+// Rendering each employee's name with their salary
 
-document.write("Employee Name:" + Ghazi.FullName);
-document.write('<br/>');
-document.write("Employee Salary:" + Ghazi.netSalary);
-document.write('<br/>');
-document.write('<br/>');
+        document.write("Employee Name:" + Ghazi.FullName);
+        document.write('<br/>');
+        document.write("Employee Salary:" + Ghazi.netSalary);
+        document.write('<br/>');
+        document.write('<br/>');
 
-document.write("Employee Name:" + Lana.FullName);
-document.write('<br/>');
-document.write("Employee Salary:" + Lana.netSalary);
-document.write('<br/>');
-document.write('<br/>');
+        document.write("Employee Name:" + Lana.FullName);
+        document.write('<br/>');
+        document.write("Employee Salary:" + Lana.netSalary);
+        document.write('<br/>');
+        document.write('<br/>');
 
-document.write("Employee Name:" + Tamara.FullName);
-document.write('<br/>');
-document.write("Employee Salary:" + Tamara.netSalary);
-document.write('<br/>');
-document.write('<br/>');
+        document.write("Employee Name:" + Tamara.FullName);
+        document.write('<br/>');
+        document.write("Employee Salary:" + Tamara.netSalary);
+        document.write('<br/>');
+        document.write('<br/>');
 
-document.write("Employee Name:" + Safi.FullName);
-document.write('<br/>');
-document.write("Employee Salary:" + Safi.netSalary);
-document.write('<br/>');
-document.write('<br/>');
+        document.write("Employee Name:" + Safi.FullName);
+        document.write('<br/>');
+        document.write("Employee Salary:" + Safi.netSalary);
+        document.write('<br/>');
+        document.write('<br/>');
 
-document.write("Employee Name:" + Rana.FullName);
-document.write('<br/>');
-document.write("Employee Salary:" + Rana.netSalary);
-document.write('<br/>');
-document.write('<br/>');
+        document.write("Employee Name:" + Rana.FullName);
+        document.write('<br/>');
+        document.write("Employee Salary:" + Rana.netSalary);
+        document.write('<br/>');
+        document.write('<br/>');
 
-document.write("Employee Name:"+ Hadi.FullName);
-document.write('<br/>');
-document.write("Employee Salary:"+ Hadi.netSalary);
-document.write('<br/>');
-document.write('<br/>');
+        document.write("Employee Name:"+ Hadi.FullName);
+        document.write('<br/>');
+        document.write("Employee Salary:"+ Hadi.netSalary);
+        document.write('<br/>');
+        document.write('<br/>');
+
