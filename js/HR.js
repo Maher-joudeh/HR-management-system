@@ -105,39 +105,56 @@ let Hadi= {
     netSalary:salNet(salEmp7)
 }
 
-// Rendering each employee's name with their salary
+// Rendering each employee's name with their department and salary
 
         document.write("Employee Name:" + Ghazi.FullName);
+        document.write('<br/>');
+        document.write("Department:" + Ghazi.Department);
         document.write('<br/>');
         document.write("Employee Salary:" + Ghazi.netSalary);
         document.write('<br/>');
         document.write('<br/>');
 
+
         document.write("Employee Name:" + Lana.FullName);
+        document.write('<br/>');
+        document.write("Department:" + Lana.Department);
         document.write('<br/>');
         document.write("Employee Salary:" + Lana.netSalary);
         document.write('<br/>');
         document.write('<br/>');
 
+
         document.write("Employee Name:" + Tamara.FullName);
+        document.write('<br/>');
+        document.write("Department:" + Tamara.Department);
         document.write('<br/>');
         document.write("Employee Salary:" + Tamara.netSalary);
         document.write('<br/>');
         document.write('<br/>');
 
+
         document.write("Employee Name:" + Safi.FullName);
+        document.write('<br/>');
+        document.write("Department:" + Safi.Department);
         document.write('<br/>');
         document.write("Employee Salary:" + Safi.netSalary);
         document.write('<br/>');
         document.write('<br/>');
 
+
         document.write("Employee Name:" + Rana.FullName);
+        document.write('<br/>');
+        document.write("Department:" + Rana.Department);
         document.write('<br/>');
         document.write("Employee Salary:" + Rana.netSalary);
         document.write('<br/>');
         document.write('<br/>');
 
+
         document.write("Employee Name:"+ Hadi.FullName);
+        document.write('<br/>');
+        document.write("Department:" + Hadi.Department);
         document.write('<br/>');
         document.write("Employee Salary:"+ Hadi.netSalary);
         document.write('<br/>');
