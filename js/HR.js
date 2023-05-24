@@ -19,7 +19,7 @@ function Employee(id, name, department, level, image, salary) {
         "Ghazi Samer",
         "Administration",
         "Senior",
-        "./assest/m1.png"
+        "./assets/m1.png"
         );
 
         let Lana = new Employee(
@@ -27,7 +27,7 @@ function Employee(id, name, department, level, image, salary) {
         "Lana Ali",
         "Finance",
         "Senior",
-        "./assest/w1.png"
+        "./assets/w1.png"
         );
 
         let Tamara = new Employee(
@@ -35,7 +35,7 @@ function Employee(id, name, department, level, image, salary) {
         "Tamara Ayoub",
         "Marketing",
         "Senior",
-        "./assest/w2.png"
+        "./assets/w2.png"
         );
 
         let Safi = new Employee(
@@ -43,7 +43,7 @@ function Employee(id, name, department, level, image, salary) {
         "Safi Walid",
         "Administration",
         "Mid-Senior",
-        "./assest/m2.png"
+        "./assets/m2.png"
         );
 
         let Omar = new Employee(
@@ -51,7 +51,7 @@ function Employee(id, name, department, level, image, salary) {
         "Omar Zaid	",
         "Development",
         "Senior",
-        "./assest/m3.png"
+        "./assets/m3.png"
         );
 
         let Rana = new Employee(
@@ -59,7 +59,7 @@ function Employee(id, name, department, level, image, salary) {
         "Rana Saleh",
         "Developmen",
         "Junior",
-        "./assest/w3.png"
+        "./assets/w3.png"
         );
 
         let Hadi = new Employee(
@@ -67,7 +67,7 @@ function Employee(id, name, department, level, image, salary) {
         "Hadi Ahmad",
         "Finance",
         "Mid-Senior",
-        "./assest/m4.png"
+        "./assets/m4.png"
         );
 
 
