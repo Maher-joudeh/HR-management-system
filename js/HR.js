@@ -79,15 +79,15 @@ let Hadi = new Employee(
 );
 
 Employee.prototype.salNet = function () {
-  if (this.level == "Senior") {
+    if (this.level === "Senior") {
     let net = Math.floor(Math.random() * (2000 - 1500)) + 1500;
-    this.salary = net * (1 - 0.075);
-  } else if (this.level == "Mid-Senior") {
+    this.salary = (net * (1 - 0.075)).toFixed(2);
+  } else if (this.level === "Mid-Senior") {
     let net = Math.floor(Math.random() * (1500 - 1000)) + 1000;
-    this.salary = net * (1 - 0.075);
-  } else if (this.level == "Junior") {
+    this.salary = (net * (1 - 0.075)).toFixed(2);
+  } else if (this.level === "Junior") {
     let net = Math.floor(Math.random() * (1000 - 500)) + 500;
-    this.salary = net * (1 - 0.075);
+    this.salary = (net * (1 - 0.075)).toFixed(2);
   }
 
   return this.salary;
